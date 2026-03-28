@@ -1,4 +1,3 @@
-
 function c(){
     let projetos = [
         {titulo: 'Projeto 1', descricao: 'Descrição breve do primeiro projeto', link:'#'},
