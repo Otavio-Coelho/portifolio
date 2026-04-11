@@ -121,8 +121,9 @@ main {
     display: inline-block;
     border: 1px solid #ffffff;
     border-radius: 8px;
+    margin-bottom: 15px;
     padding: 25px;
-    margin: 15px;
+    width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

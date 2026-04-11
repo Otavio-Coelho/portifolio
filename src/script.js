@@ -1,8 +1,8 @@
 function c(){
     let projetos = [
-        {titulo: 'Projeto 1', descricao: 'Descrição breve do primeiro projeto', link:'#'},
-        {titulo: 'Projeto 2', descricao: 'Descrição breve do segundo projeto', link:'#'},
-        {titulo: 'Projeto 3', descricao: 'Descrição breve do terceiro projeto', link:'#'}
+        {titulo: 'Flor', descricao: 'Um projeto feito no p5.JS que desenha uma flor apenas com JavaScript', link:'https://editor.p5js.org/joojoj872/full/JsiTdY1ic'},
+        {titulo: 'Contador de clicks', descricao: 'Um projeto feito no p5.JS que conta os clicks na tela', link:'https://editor.p5js.org/joojoj872/full/WmleJWN7v'},
+        {titulo: 'Relogio', descricao: 'Um projeto feito no p5.JS que mostra na tela uma imagem dependendo do horario do dispositivo', link:'https://editor.p5js.org/joojoj872/full/TYc32luA8'}
     ];
 
     let projectGrid = document.querySelector('.project-grid');
