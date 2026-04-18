@@ -9,6 +9,7 @@ function c(){
     projectGrid.innerHTML = '';
     projetos.forEach( function (projetos){
         var card = document.createElement('a');
+        card.target = '_blank';
         card.className = 'project-card';
         card.href = projetos.link;
         card.innerHTML = '<h3>'+projetos.titulo+'</h3><p>'+projetos.descricao+'</p>';
